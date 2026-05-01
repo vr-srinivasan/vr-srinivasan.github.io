@@ -23,7 +23,7 @@ repository               : "vr-srinivasan/vr-srinivasan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "srinivasan-photo.jpg"
+  avatar           : "srinivasan-photo.JPG"
   name             : "Vijay Srinivasan"
   pronouns         : # example: "she/her"  
   bio              : "Researcher"
