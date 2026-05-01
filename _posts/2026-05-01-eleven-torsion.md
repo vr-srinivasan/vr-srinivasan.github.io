@@ -30,11 +30,11 @@ mathjax: true
 \DeclareMathOperator{\nr}{nr}
 \DeclareMathOperator{\sm}{sm}
 \\)
-In this post, I'll give two proofs that there are no rational points of order \\(11\\) on any elliptic curve over \\(\Q\\). The stuff in this post also appeared in a talk I gave at [STAGE](https://math.mit.edu/nt/old/stage_f23.html) in Fall 2023. These [notes by Tom Weston](https://swc-math.github.io/notes/files/01Weston1.pdf) give a great introduction to the modular curves of level 11, also with the goal of studying 11-torsion points on elliptic curves.
+In this post, I'll give two proofs that there are no rational points of order 11 on any elliptic curve over \\(\Q\\). The stuff in this post also appeared in a talk I gave at [STAGE](https://math.mit.edu/nt/old/stage_f23.html) in Fall 2023. These [notes by Tom Weston](https://swc-math.github.io/notes/files/01Weston1.pdf) give a great introduction to the modular curves of level 11, also with the goal of studying 11-torsion points on elliptic curves.
 
 ## The modular curve
 
-Recall the modular curve \\(Y:=Y_1(11)\\) parametrizing elliptic curves with a point of order \\(11\\). It has a canonical compactification \\(X:=X_1(11)\\) which parametrizes generalized elliptic curves. By explicitly counting the possibilities for generalized elliptic in the boundary, one finds that the divisor \\(D := X-Y\\) on \\(X\\) has degree \\(10\\) and that \\(D(\Q)\\) consists of \\(5\\) points (the remaining \\(5\\) points split over \\(\Q(\zeta_{11})\\)). Over \\(\C\\), one knows that the genus \\(g\\) of this curve is computed by the space of weight 2 cusp forms. Since \\(\dim S_2(\Gamma_1(11)) = 1\\), spanned by the modular form
+Recall the modular curve \\(Y:=Y_1(11)\\) parametrizing elliptic curves with a point of order 11. It has a canonical compactification \\(X:=X_1(11)\\) which parametrizes generalized elliptic curves. By explicitly counting the possibilities for generalized elliptic in the boundary, one finds that the divisor \\(D := X-Y\\) on \\(X\\) has degree \\(10\\) and that \\(D(\Q)\\) consists of \\(5\\) points (the remaining \\(5\\) points split over \\(\Q(\zeta_{11})\\)). Over \\(\C\\), one knows that the genus \\(g\\) of this curve is computed by the space of weight 2 cusp forms. Since \\(\dim S_2(\Gamma_1(11)) = 1\\), spanned by the modular form
 \\[f(z) = \eta(z)^2\eta(11z)^2 = q\prod_{n=1}^\infty (1-q^n)^2(1-q^{11n})^2,\\]
 we find that \\(g=1\\), so \\(X\\) is an elliptic curve.
 
@@ -42,7 +42,7 @@ To show that there are no elliptic curves over \\(\Q\\) with a point of order \\
 
 By computing the Tate normal form of an elliptic curve with a point of order \\(11\\), one can find an explicit Weierstrass equation for \\(X\\); it is given by
 \\[X : y^2 + y = x^3-x^2.\\]
-Via this equation, we view \\(X\\) as a scheme over \\(\Z\\). We know from moduli considerations that \\(X\\) has good reduction away from \\(11\\), and at \\(11\\) we can see that the reduction is split multiplicative. From the Weierstrass equation for \\(X\\), we compute that the discriminant is \\(-11\\), so in fact the smooth locus \\(X^0\\) of \\(X\\) is the Néron model of \\(X_\Q\\) over \\(\Z\\), and the natural map \\(X^0(\Z)\to X(\Q)\\) is a bijection.
+Via this equation, we view \\(X\\) as a scheme over \\(\Z\\). We know from moduli considerations that \\(X\\) has good reduction away from 11, and at 11 we can see that the reduction is split multiplicative. From the Weierstrass equation for \\(X\\), we compute that the discriminant is \\(-11\\), so in fact the smooth locus \\(X^0\\) of \\(X\\) is the Néron model of \\(X_\Q\\) over \\(\Z\\), and the natural map \\(X^0(\Z)\to X(\Q)\\) is a bijection.
 
 We can explicitly find some rational points
 \\[\\{\infty, (0,0), (0,-1), (1,0), (1, -1)\\} \subseteq X(\Q)\\]
@@ -54,7 +54,7 @@ To finish the proof, it will thus suffice to show that \\(X/\Q\\) has Mordell–
 
 By the work of Gross–Zagier and Kolyvagin, to show that \\(X\\) has Mordell–Weil rank 0, it suffices to show that \\(L(f,1)\ne 0\\), where \\(L(f,s)\\) is the complex \\(L\\)-function associated to \\(f\\). Explicitly, one computes the \\(L\\)-function as a Mellin transform to obtain
 \\[L(f,1) = \frac{1}{2\pi} \int_0^\infty f(iy)\,dy.\\]
-The explicit product expansion for \\(f\\) shows that \\(f(iy)\ge 0\\) for all \\(y\ge 0\\), so in particular we have \\(L(f,1) > 0\\). This approach is probably most efficient for studying \\(11\\)-torsion. Merel’s approach to higher orders actually generalizes this idea to great effect, but it requires extra ingenuity since the modular curve will no longer be elliptic.
+The explicit product expansion for \\(f\\) shows that \\(f(iy)\ge 0\\) for all \\(y\ge 0\\), so in particular we have \\(L(f,1) > 0\\). This approach is probably most efficient for studying 11-torsion. Merel’s approach to higher orders actually generalizes this idea to great effect, but it requires extra ingenuity since the modular curve will no longer be elliptic.
 
 ## Method 2: Descent via fppf cohomology
 
