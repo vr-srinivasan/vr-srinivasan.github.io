@@ -2,6 +2,7 @@
 title: Projective space is simply connected
 date: 2026-04-01
 mathjax: true
+tags: [algebraic geometry]
 ---
 
 It is a standard fact in algebraic geometry that the projective space \\(\mathbb{P}^r\\) over any algebraically closed field \\(k\\) is simply connected. When \\(k\\) has characteristic zero, we can work over \\(\mathbb{C}\\) and use a cell decomposition. When \\(k\\) is allowed to have characteristic \\(p\\), one instead needs some algebraic argument, and a number of such arguments can be found [here](https://mathoverflow.net/questions/62282/mathbbpn-is-simply-connected) (I am partial to Emerton's answer among the many interesting answers there).
