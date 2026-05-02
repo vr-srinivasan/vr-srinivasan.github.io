@@ -24,6 +24,6 @@ Now \(V\to X\) is finite surjective so every connected component of \(V\times_X 
 
 ---
 
-To see that \\(\mathbb{P}^r_k\\) is simply connected, we note that \\(\mathbb{P}^r\\) may be realized as the quotient of \\((\mathbb{P}^1)^r\\) by the natural action of the symmetric group \\(\mathfrak{S}_r\\). This action has fixed points along the diagonal. So we can apply the above result to the quotient map \\((\mathbb{P}^1)^r \to \mathbb{P}^r.\\) 
+To see that \\(\mathbb{P}^r\\) is simply connected, we note that \\(\mathbb{P}^r\\) may be realized as the quotient of \\((\mathbb{P}^1)^r\\) by the natural action of the symmetric group \\(\mathfrak{S}_r\\). This action has fixed points along the diagonal. So we can apply the above result to the quotient map \\((\mathbb{P}^1)^r \to \mathbb{P}^r.\\) 
 
 
