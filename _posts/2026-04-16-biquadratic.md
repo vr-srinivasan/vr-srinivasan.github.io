@@ -1,11 +1,11 @@
 ---
 title: Biquadratic reciprocity
-date: 2026-05-16
+date: 2026-04-16
 layout: single
 mathjax: true
 tags: [elliptic curves, complex multiplication]
 ---
-In this post, I’ll tell you how to use the arithmetic of a certain elliptic curve to prove biquadratic reciprocity. I learned this approach from Matt Emerton when I was an undergraduate. At the time I was very confused, but looking back, I can understand what he was trying to say. This gives what I think is a beautiful and explicit illustration of the principles underlying the class field theory of imaginary quadratic fields, and is a natural generalization of ideas that appear in standard proofs of quadratic reciprocity.
+I’ll tell you how to use the arithmetic of a certain elliptic curve to prove biquadratic reciprocity. I learned this approach from Matt Emerton when I was an undergraduate. At the time I was somewhat confused, though he clearly and patiently explained the ideas to me several times over. I was looking back at the notes I had written down, and I decided to rewrite the argument nicely. 
 \\(\newcommand{\x}{\times}
 \newcommand{\embed}{\hookrightarrow}
 \newcommand{\ida}{\mathfrak{a}}

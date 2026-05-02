@@ -5,7 +5,7 @@ layout: single
 mathjax: true
 tags: [elliptic curves, modular curves, modular forms, torsion points]
 ---
-In this post, I'll give two proofs that there are no rational points of order \\(11\\) on any elliptic curve over \\(\mathbb{Q}\\). The stuff in this post also appeared in a talk I gave at [STAGE](https://math.mit.edu/nt/old/stage_f23.html) in Fall 2023. These [notes by Tom Weston](https://swc-math.github.io/notes/files/01Weston1.pdf) give a great introduction to the modular curves of level \\(11\\), also with the goal of studying \\(11\\)-torsion points on elliptic curves.
+I'll explain that there are no rational points of order \\(11\\) on any elliptic curve over \\(\mathbb{Q}\\). The stuff in this post also appeared in a talk I gave at [STAGE](https://math.mit.edu/nt/old/stage_f23.html) in Fall 2023. These [notes by Tom Weston](https://swc-math.github.io/notes/files/01Weston1.pdf) give a great introduction to the modular curves of level \\(11\\), also with the goal of studying \\(11\\)-torsion points on elliptic curves.
 \\(
 \newcommand{\x}{\times}
 \newcommand{\embed}{\hookrightarrow}
