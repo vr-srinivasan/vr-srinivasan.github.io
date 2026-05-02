@@ -76,11 +76,10 @@ If \(\delta\) is \(1\) or \(1+4i\) modulo \(8\), then already \(K_\idq(\sqrt[4]{
 
 <details>
 <summary>Proof</summary>
-Sorry about that! Here it is:
 
-Since \(\Gal(F/K)\cong (\cO/\alpha)^\x\), there is a unique \(\Z/4\Z\) subextension, which by Kummer theory must be of the form \(K(\sqrt[4]{\eta})\) for some \(\eta \in K\). Since \(F\) is unramified away from \(\gamma \alpha\), we can write \(\eta = u\gamma^k \alpha^\*\) for some \(u\in \cO^\x\) and \(0\le k\le 3\).
+Since \(\Gal(F/K)\cong (\cO/\alpha)^\x\), there is a unique \(\Z/4\Z\) subextension, which by Kummer theory must be of the form \(K(\sqrt[4]{\eta})\) for some \(\eta \in K\). Since \(F\) is unramified away from \(\gamma \alpha\), we can write \(\eta = u\gamma^k \alpha^*\) for some \(u\in \cO^\x\) and \(0\le k\le 3\).
 
-We know that \(L(\sqrt[4]{\eta})/L\) is unramified since \(E\) has good reduction over \(L\). Now since \(\alpha \equiv 1\bmod \gamma^3\), we can check that \(\alpha^\*\) is either \(\equiv 1\bmod 4\) or \(\equiv 1-2i\bmod 4\). Thus \(L(\sqrt[4]{\alpha^\*})/L\) is unramified at \(\idq'\). Taking the compositum of the two extensions, we see that \(L(\sqrt[4]{u\gamma^k})/L\) is unramified at \(\idq'\). This is possible only if \(u=1\) and \(k=0\). QED
+We know that \(L(\sqrt[4]{\eta})/L\) is unramified since \(E\) has good reduction over \(L\). Now since \(\alpha \equiv 1\bmod \gamma^3\), we can check that \(\alpha^*\) is either \(\equiv 1\bmod 4\) or \(\equiv 1-2i\bmod 4\). Thus \(L(\sqrt[4]{\alpha^*})/L\) is unramified at \(\idq'\). Taking the compositum of the two extensions, we see that \(L(\sqrt[4]{u\gamma^k})/L\) is unramified at \(\idq'\). This is possible only if \(u=1\) and \(k=0\). \(\square\)
 </details>
 ---
 
